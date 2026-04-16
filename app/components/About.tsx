@@ -40,7 +40,7 @@ export default function About() {
         {activeTab === 'metaverse' ? (
           <div className="grid md:grid-cols-2 gap-10 items-center">
             <div>
-              <h3 className="text-2xl font-semibold mb-4">🌐 What is the Metaverse?</h3>
+              <h3 className="text-2xl text-black font-semibold mb-4">🌐 What is the Metaverse?</h3>
               <p className="text-gray-600 mb-4 leading-relaxed">
                 The metaverse is a persistent 3D digital universe where users interact in real-time through avatars, virtual environments, and immersive experiences.
               </p>
@@ -50,7 +50,7 @@ export default function About() {
             </div>
 
             <div className="bg-white p-8 rounded-2xl shadow-lg border">
-              <h4 className="text-xl font-semibold mb-4">🚀 Metaverse Highlights</h4>
+              <h4 className="text-xl text-black font-semibold mb-4">🚀 Metaverse Highlights</h4>
               <ul className="space-y-3 text-gray-600">
                 <li>✔ Immersive 3D environments</li>
                 <li>✔ Social virtual interaction</li>
@@ -62,7 +62,7 @@ export default function About() {
         ) : (
           <div className="grid md:grid-cols-2 gap-10 items-center">
             <div>
-              <h3 className="text-2xl font-semibold mb-4">🔗 What is Blockchain?</h3>
+              <h3 className="text-2xl text-black font-semibold mb-4">🔗 What is Blockchain?</h3>
               <p className="text-gray-600 mb-4 leading-relaxed">
                 Blockchain is a decentralized ledger technology that records transactions securely across a distributed network.
               </p>
@@ -72,7 +72,7 @@ export default function About() {
             </div>
 
             <div className="bg-white p-8 rounded-2xl shadow-lg border">
-              <h4 className="text-xl font-semibold mb-4">🔐 Blockchain Benefits</h4>
+              <h4 className="text-xl text-black font-semibold mb-4">🔐 Blockchain Benefits</h4>
               <ul className="space-y-3 text-gray-600">
                 <li>✔ Decentralized ownership</li>
                 <li>✔ Secure transactions</li>
