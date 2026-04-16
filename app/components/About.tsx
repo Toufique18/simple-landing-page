@@ -7,9 +7,9 @@ export default function About() {
 
   return (
     <section id="about" className="px-6 py-28 bg-gray-50">
-      {/* Header */}
+      
       <div className="text-center max-w-3xl mx-auto mb-12">
-        <h2 className="text-4xl md:text-5xl font-bold mb-6">
+        <h2 className="text-4xl text-black md:text-5xl font-bold mb-6">
           The Future of Virtual Reality
         </h2>
         <p className="text-lg text-gray-600">

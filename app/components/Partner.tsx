@@ -30,7 +30,7 @@ export default function Partner() {
     <section id="partner" className="px-6 py-24 bg-gray-50 text-center">
       
       {/* Heading */}
-      <h2 className="text-4xl font-bold mb-4">
+      <h2 className="text-4xl text-black font-bold mb-4">
         Trusted Web3 Partners
       </h2>
 
